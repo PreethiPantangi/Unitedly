@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.preethi.NGO_Connect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    ﻿
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.preethi.ngo_connnect.LoadingScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.preethi.ngo_connnect.NgoProfile" />
+        <activity android:name="com.example.preethi.ngo_connnect.EntryActivity" />
+        <activity android:name="com.example.preethi.ngo_connnect.NgoLogin" />
+        <activity android:name="com.example.preethi.ngo_connnect.NgoRegister" />
+        <activity android:name="com.example.preethi.ngo_connnect.UserProfile" />
+        <activity android:name="com.example.preethi.ngo_connnect.Contact" />
+        <activity android:name="com.example.preethi.ngo_connnect.Ngo" />
+        <activity android:name="com.example.preethi.ngo_connnect.UserHome" />
+        <activity android:name="com.example.preethi.ngo_connnect.AddEvent" />
+        <activity android:name="com.example.preethi.ngo_connnect.NgoHome" />
+        <activity android:name="com.example.preethi.ngo_connnect.YourEvents" />
+        <activity android:name="com.example.preethi.ngo_connnect.EventDetails" />
+        <activity android:name="com.example.preethi.ngo_connnect.Join" />
+        <activity android:name="com.example.preethi.ngo_connnect.Sponsor" />
+        <activity android:name="com.example.preethi.ngo_connnect.NgoDetailsProfile" />
+        <activity android:name="com.example.preethi.ngo_connnect.NgoEventDetails" />
+        <activity android:name="com.example.preethi.ngo_connnect.MailOperation"/>
+        <activity android:name="com.example.preethi.ngo_connnect.NgoEventData"></activity>
+    </application>
+
+</manifest>

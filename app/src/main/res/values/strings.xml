@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Unitedly</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Events">Event Name - NGO</string>
+    /n
+
+    <string name="paytm"><a href="http://www.paytm.com">Pay via Paytm @</a></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_testing">Testing</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_ngo_events">NgoEvents</string>
+    <string name="title_activity_ngo_events_page">NgoEventsPage</string>
+    <string name="title_activity_tp">Tp</string>
+    <string name="title_activity_ngo_events_list">NgoEventsList</string>
+    <string name="title_activity_ngo_profile">NgoProfile</string>
+
+
+</resources>

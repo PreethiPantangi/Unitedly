@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_event"
+        android:icon="@drawable/baseline_event_black_18dp"
+        android:title="Events" />
+
+    <item
+        android:id="@+id/nav_ngo"
+        android:icon="@drawable/baseline_people_black_18dp"
+        android:title="NGOs" />
+
+
+    <item
+        android:id="@+id/nav_ngos"
+        android:icon="@drawable/baseline_people_black_18dp"
+        android:title="NGO?" />
+
+
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/baseline_contact_mail_black_18dp"
+        android:title="Contact" />
+
+
+</menu>

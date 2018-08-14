@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.preethi.ngo_connnect.NgoLogin">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:background="#848484"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/logo1"
+        android:background="@drawable/nine"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_alignParentRight="true"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="#F6FBFC"
+                android:hint="Enter e-mail"
+                android:id="@+id/ngoid"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/ngopass"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#F6FBFC"
+                android:inputType="textPassword"
+                android:hint="Enter password"
+                android:layout_marginTop="105dp"
+                android:textSize="18dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:id="@+id/ngologin"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="175dp"/>
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="245dp"
+                android:text="      New NGO? Register Here"
+                android:textColor="#363636"
+                android:id="@+id/ngoreg"
+                android:textSize="15dp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
